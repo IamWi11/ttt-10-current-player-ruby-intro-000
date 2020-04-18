@@ -4,7 +4,7 @@ def turn_count(board)
     if index == "X" || index == "O"
       count += 1
   end
-return turn
+return count
 end
 
 def current_player(board)
